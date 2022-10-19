@@ -1,1 +1,40 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation-Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>時間計算アプリ</h1>
+
+    <div class="container">
+        <div id="timer">00:00.000</div>
+            <div class="controls">
+                <div class="btn" id="start" type="button">スタート</div>
+                <div class="btn" id="stop" type="button">ストップ</div>
+                <div class="btn" id="reset" type="button">リセット</div>
+            </div>
+          
+     </div>
+
+
+    <form class="form">
+        <input class="task_value" type="text">
+        <button class="task_submit" type="button">入力</button>
+    </form>
+
+    <div id="table">
+    <h2>勉強時間</h2>
+    <ul class="task_list"></ul>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>
